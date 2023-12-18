@@ -1,0 +1,9 @@
+- git clone https://github.com/cwijayasundara/insurence_rag_use_cases
+- cd to the created directory (insurence_rag_use_cases)
+- create a python virtual env
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install -r requirements.txt
+- create a file named .env and create an entry with key OPENAI_API_KEY and value = your openai key
+- run the chroma_loader.py to load, chunk, vectorise and upload the insurance document to local Chroma vector db
+- run streamlit run reader.py to trigger the web ui created by Streamlit.
